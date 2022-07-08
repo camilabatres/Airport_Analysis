@@ -1,22 +1,51 @@
-# Dexter Final Project
+# Airport Efficiency Analysis Final Project
 
-## Project Description 
+## Overview: 
+For our project we are looking at the efficiency of local DMV Airports for outbound domestic flights. Specifically we will be pulling data across Baltimore Washington International(BWI), Dules International Airport(IAD), Ronald Reagan Washington National Airport(DCA) from January 2019 through March 2022. Our group will be using the following data points to determine the best run airport: 
 
-### Why we selected it
-### What do we want to answer 
+* Month/Year/Day of week
+* Operating airline
+* Airport
+* Destination
+     * NorthEast, SouthEast, MidWest, SouthWest, West
+* Scheduled Take Off Time
+* Weather
+* Actual Departure
 
+## Reasoning For Our Project: 
+As we approach post-pandemic normalcy, we can agree that a vacation (for whatever reason) is long overdue. 
 
-## Database 
+## Data Source: 
 
-### Data Sources
-(links here) 
+We worked with a couple websites to pull data for our project. We filtered through the raw data to grab specific inputs for our analysis. 
 
-### Software 
-* Jupyter Notebook 
-* pgAdmin 4
-* Tableau 
+https://www.transtats.bts.gov/DL_SelectFields.aspx?gnoyr_VQ=FGK&QO_fu146_anzr=b0-gvzr
 
-### Cleaning the Data 
+* year/month/day of week
+* flight date
+* marketing airline network
+* Operated_or_Branded_Code_Share_Partners
+* Origin
+* Dest
+* Crsdeptime
+* Deptime
+* Depdelay
+* Departure delay groups
+* Dep time block
+* Cancelled
+* Diverted
+* Carrier delay
+* Weather delay
+* Nas delay
+* Security delay
+* Lateaircraft delay
 
-## Machine Learning Model Description 
+https://www.ncdc.noaa.gov/cdo-web/datasets
 
+## Questions We Hope To Answer: 
+
+* What month/day of the week is the best?
+* Does month/day of the week matter? 
+* Which airlines preformed the best? 
+* How often does weather effect delays? 
+* Does Destination effect travel efficiency? 
