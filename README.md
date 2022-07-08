@@ -13,7 +13,7 @@ For our project we are looking at the efficiency of local DMV Airports for outbo
 * Actual Departure
 
 ## Reasoning For Our Project: 
-As we approach post-pandemic normalcy, we can agree that a vacation (for whatever reason) is long overdue. 
+As we approach post-pandemic normalcy, we can agree that a vacation (for whatever reason) is long overdue. Making up for lost time, especially while traveling, is something truly important to us. Working with our large dataset is also allowing us to use what we've learned thoughout our class to practice real world situations.
 
 ## Data Source: 
 
@@ -43,17 +43,10 @@ https://www.transtats.bts.gov/DL_SelectFields.aspx?gnoyr_VQ=FGK&QO_fu146_anzr=b0
 https://www.ncdc.noaa.gov/cdo-web/datasets
 
 ## Questions We Hope To Answer: 
+Our main question -which Airport has been most efficient through the volatility of the past 3 years? That being said, we will be looking at what factors make up the answer. 
 
 * What month/day of the week is the best?
 * Does month/day of the week matter? 
 * Which airlines preformed the best? 
 * How often does weather effect delays? 
 * Does Destination effect travel efficiency? 
-
-## Machine Learning Plan 
-We are planning to find out which model is the best machine learning model for our analysis. We will decide between the supervised machine learning and unsupervised machine learning. With supervised, we would like to see if a regression model works to display the changes over the years. with unsupervised, we would like to see if the types of categorization or the posibility of displaying the data through a neural net to give it a total different outlook. 
-Once we choose the best model that works best for our questions, we will connect it to the weather data. 
-Below is a chart to display our model 
-![image](https://user-images.githubusercontent.com/100107588/177897982-427344f9-5ab0-473c-9894-64dc26971ca2.png)
-
-
