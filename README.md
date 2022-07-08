@@ -18,5 +18,5 @@
 
 ### Cleaning the Data 
 
-### Machine Learning Model Description 
+## Machine Learning Model Description 
 
