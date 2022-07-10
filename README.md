@@ -40,6 +40,10 @@ https://www.transtats.bts.gov/DL_SelectFields.aspx?gnoyr_VQ=FGK&QO_fu146_anzr=b0
 * Security delay
 * Lateaircraft delay
 
+Link to merged csv file:
+https://drive.google.com/file/d/1fOjVoigY-u8OIQptRxF75AVX-LMx3trb/view?usp=sharing
+
+
 https://www.ncdc.noaa.gov/cdo-web/datasets
 
 ## Questions We Hope To Answer: 
