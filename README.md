@@ -68,6 +68,9 @@ https://www.ncdc.noaa.gov/cdo-web/datasets
 * TAVG - Average Temperature.
 * TMIN - Minimum temperature
 
+### Link to merged csv file:
+https://drive.google.com/file/d/1fOjVoigY-u8OIQptRxF75AVX-LMx3trb/view?usp=sharing
+
 ## Questions We Hope To Answer: 
 Our main question -which Airport has been most efficient through the volatility of the past 3 years? That being said, we will be looking at what factors make up the answer. 
 
