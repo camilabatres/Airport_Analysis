@@ -12,9 +12,12 @@ For our project we are looking at the efficiency of local DMV Airports for outbo
 * Weather
 * Actual Departure
 
+
+![Screen Shot 2022-07-06 at 4 41 07 PM](https://user-images.githubusercontent.com/99618784/178156547-0f4734be-58cd-42f0-ab32-3ac893cf850e.png)
+
 ## Reasoning For Our Project: 
 
-As we approach post-pandemic normalcy, we can agree that a vacation (for whatever reason) is long overdue. Making up for lost time, especially while traveling, is something truly important to us. Working with our large dataset is also allowing us to use what we've learned thoughout our class to practice real world situations.
+As we approach post-pandemic normalcy, we can agree that a vacation (for whatever reason) is long overdue. Making up for lost time, especially while traveling, is something truly important to us. Once we've completed this project, we can use this information to plan trips and share with others outside of academia. Working with our large dataset is also allowing us to use what we've learned thoughout our class to practice real world situations.
 
 ## Data Source: 
 
@@ -80,3 +83,13 @@ Our main question -which Airport has been most efficient through the volatility 
 * How often does weather effect delays? 
 * Does Destination effect travel efficiency? 
 
+### Database:
+
+![Database ERD first draft](https://user-images.githubusercontent.com/99618784/178156404-6ebea7fa-4b84-4da8-b44f-9de8016d30ee.png)
+
+
+
+
+### Communication
+
+We've made the most of our time in class and using office hours to get together as well. We check in with questions, ideas, status updates through Slack. We have also met after class and on weekends to further work on our project. We plan on meeting outside of class at least twice a week.
