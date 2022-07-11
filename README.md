@@ -93,3 +93,23 @@ Our main question -which Airport has been most efficient through the volatility 
 ### Communication
 
 We've made the most of our time in class and using office hours to get together as well. We check in with questions, ideas, status updates through Slack. We have also met after class and on weekends to further work on our project. We plan on meeting outside of class at least twice a week.
+
+### Machine Learning Model 
+
+inputs:
+
+* year/month/day of week
+* flight date
+* Origin
+* Dest
+* DestStateName
+* Crsdeptime
+* Deptime
+
+outputs: 
+
+* the best (regarding time efficiency) ariport 
+* the best (regarding time efficiency) airline 
+* the best (regarding time efficiency) flight option
+
+
