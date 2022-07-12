@@ -86,6 +86,23 @@ Our main question -which Airport has been most efficient through the volatility 
 
 ![Database ERD first draft](https://user-images.githubusercontent.com/99618784/178156404-6ebea7fa-4b84-4da8-b44f-9de8016d30ee.png)
 
+### Machine Learning Model
+We will first use the logistic regression to predicts binary outcomes
+
+input data: 
+year/month/day of week
+flight date
+Origin
+Dest
+DestStateName
+Crsdeptime
+Deptime
+
+output: 
+
+1: delayed flights or 0: not delayed flights.
+This will help us determine which flights will be delayed under the input (above) conditions Since the data is not continous, we would use the line of code below to find out the probablity after training it. log(probability of delay/(1 - probability of delay))
+
 ### Communication
 
 We've made the most of our time in class and using office hours to get together as well. We check in with questions, ideas, status updates through Slack. We have also met after class and on weekends to further work on our project. We plan on meeting outside of class at least twice a week.
