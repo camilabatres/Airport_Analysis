@@ -87,7 +87,7 @@ Our main question -which Airport has been most efficient through the volatility 
 ![Database ERD first draft](https://user-images.githubusercontent.com/99618784/178156404-6ebea7fa-4b84-4da8-b44f-9de8016d30ee.png)
 
 ### Machine Learning Model
-We will first use the logistic regression to predicts binary outcomes
+We will first use the logistic regression to predicts binary outcomes. I added a pandas file that demonstrates how we will process our data to make our predictions (sample_logistic_regression)  https://github.com/camilabatres/dexter_project/blob/machine_learning_model/sample_logistic_regression.ipynb
 
 input data: 
 year/month/day of week
