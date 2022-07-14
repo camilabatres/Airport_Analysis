@@ -79,8 +79,9 @@ Our main question -which Airport has been most efficient through the volatility 
 * What month/day of the week is the best?
 * Does month/day of the week matter?
 * Which airlines preformed the best?
-* How often does weather effect delays?
-* Does Destination effect travel efficiency?
+* How does weather affect delays?
+* Does origin airport affect delay?
+* Is there a correlation with destination region and flight delay?
 
 ### Database:
 
