@@ -4,7 +4,7 @@
 For our project we are looking at the efficiency of local DC, Maryland, and Virginia (DMV) Airports for outbound domestic flights. Specifically we will be pulling data across Baltimore Washington International (BWI), Dules International Airport (IAD), Ronald Reagan Washington National Airport (DCA) from January 2019 through March 2022. Our group will be using the following data points to determine the best run airport:
 
 * Month/Year/Day of week
-* Operating airline
+* Operating airlin
 * Airport
 * Destination
      * NorthEast, SouthEast, MidWest, SouthWest, West
