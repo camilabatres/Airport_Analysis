@@ -78,7 +78,10 @@ We worked with a couple websites to pull data for our project. The United States
 
 ## Description of the Data Exploration Phase:
 
-We began our data exploration with researching online sources of all flights in the U.S. Initially, we started combing through Kaggle and found information for flights however were limited in the range of years. 
+We began our data exploration with researching online sources of all flights in the U.S. Initially, we started combing through Kaggle and found information however were limited in the range of years. We needed to find enough Avaiaton data for pre-covid, peak covid, post-covid years to validate our future findings. The United States Department of Transportation website proved to be a dependable source for the 3 airports we are preforming our analysis on. 
+
+![bts dexterproject](https://user-images.githubusercontent.com/99618784/179411577-4f4184a2-d491-4d2f-aca9-9f6726e91548.PNG)
+
 
 ## Description of the Analysis Phase: 
 
