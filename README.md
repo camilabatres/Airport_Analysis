@@ -12,7 +12,6 @@ For our project we are looking at the efficiency of local DC, Maryland, and Virg
 * Weather
 * Actual Departure
 
-![Screen Shot 2022-07-06 at 4 41 07 PM](https://user-images.githubusercontent.com/99618784/178156547-0f4734be-58cd-42f0-ab32-3ac893cf850e.png)
 
 ## Presentation 
 [Presentation](https://docs.google.com/presentation/d/1YszyuInGDuC_et4G8m_60k3zDEPiCfOyu6jOvvO_-Hg/edit#slide=id.gf47a8fbfff_1_0)
@@ -82,10 +81,12 @@ We began our data exploration with researching online sources of all flights in 
 
 ![bts dexterproject](https://user-images.githubusercontent.com/99618784/179411577-4f4184a2-d491-4d2f-aca9-9f6726e91548.PNG)
 
-The csv file that was provided after selecting our filters had millions of data points. Our focus is on delayed flights and delay time. As we cleaned up our file we set our types of delay to: weather, carrier, late aircraft delay(LAS), security, and national air system(NAS). 
-
 
 ## Description of the Analysis Phase: 
+
+The csv file that was provided after selecting our filters had millions of data points. Our focus is on delayed flights and delay time. As we clean up our data we set our types of delay to: weather, carrier, late aircraft delay(LAS), security, and national air system(NAS). Our analysis is specifically looking at outbound domestic flights so we simplified the destination to regions, to include Puerto Rico and the U.S Virgin Islands as non-continental regions. We are using SQL, Pandas, and Tableau to make sense of our data. 
+
+![Screen Shot 2022-07-06 at 4 41 07 PM](https://user-images.githubusercontent.com/99618784/178156547-0f4734be-58cd-42f0-ab32-3ac893cf850e.png)
 
 ## Questions We Hope To Answer: 
 Our main question -which Airport has been most efficient through the volatility of the past 3 years? That being said, we will be looking at what factors make up the answer.
