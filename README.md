@@ -78,11 +78,11 @@ We worked with a couple websites to pull data for our project. The United States
 
 ## Description of the Data Exploration Phase:
 
-We began our data exploration with researching online sources of all flights in the U.S. Initially, we started combing through Kaggle and found information however were limited in the range of years. We needed to find enough Avaiaton data for pre-covid, peak covid, post-covid years to validate our future findings. The United States Department of Transportation website proved to be a dependable source for the 3 airports we are preforming our analysis on. The National Oceanic and Atomspheric Administration provided a weather summary that we wanted for our project as well.
+We began our data exploration with researching online sources of all flights in the U.S. Initially, we started combing through Kaggle and found information however were limited in the range of years. We needed to find enough Avaiaton data for pre-covid, peak covid, post-covid years to validate our future findings. The United States Department of Transportation website proved to be a dependable source for the 3 airports we are preforming our analysis on. The National Oceanic and Atomspheric Administration provided a weather summary that we wanted for our project as well. We considered bringing in general unemployement data but ultimately decided against it. 
 
 ![bts dexterproject](https://user-images.githubusercontent.com/99618784/179411577-4f4184a2-d491-4d2f-aca9-9f6726e91548.PNG)
 
-The csv file that was provided after selecting our filters had millions of data points. 
+The csv file that was provided after selecting our filters had millions of data points. Our focus is on delayed flights and delay time. As we cleaned up our file we set our types of delay to: weather, carrier, late aircraft delay(LAS), security, and national air system(NAS). 
 
 
 ## Description of the Analysis Phase: 
