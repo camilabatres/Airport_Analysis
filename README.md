@@ -78,9 +78,11 @@ We worked with a couple websites to pull data for our project. The United States
 
 ## Description of the Data Exploration Phase:
 
-We began our data exploration with researching online sources of all flights in the U.S. Initially, we started combing through Kaggle and found information however were limited in the range of years. We needed to find enough Avaiaton data for pre-covid, peak covid, post-covid years to validate our future findings. The United States Department of Transportation website proved to be a dependable source for the 3 airports we are preforming our analysis on. 
+We began our data exploration with researching online sources of all flights in the U.S. Initially, we started combing through Kaggle and found information however were limited in the range of years. We needed to find enough Avaiaton data for pre-covid, peak covid, post-covid years to validate our future findings. The United States Department of Transportation website proved to be a dependable source for the 3 airports we are preforming our analysis on. The National Oceanic and Atomspheric Administration provided a weather summary that we wanted for our project as well.
 
 ![bts dexterproject](https://user-images.githubusercontent.com/99618784/179411577-4f4184a2-d491-4d2f-aca9-9f6726e91548.PNG)
+
+The csv file that was provided after selecting our filters had millions of data points. 
 
 
 ## Description of the Analysis Phase: 
@@ -119,7 +121,7 @@ This will help us determine which flights will be delayed under the input (above
 
 ### Communication
 
-We've made the most of our time in class and using office hours to get together as well. We check in with questions, ideas, status updates through Slack. We have also met after class and on weekends to further work on our project. We plan on meeting outside of class at least twice a week.
+We've made the most of our time in class and using office hours to get together as well. We check in with questions, ideas, status updates through Slack. We have also met after class and on weekends to further work on our project. We plan on meeting outside of class at least twice a week. One of our group members set up a Zoom account so we are not limited to 40 minute sessions. Sunday mornings are our go to meet time. 
 
 ### Technology
 
