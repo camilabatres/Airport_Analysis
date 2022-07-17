@@ -76,6 +76,12 @@ We worked with a couple websites to pull data for our project. The United States
 
 [Data](data_files.md)
 
+## Description of the Data Exploration Phase:
+
+We began our data exploration with researching online sources of all flights in the U.S. Initially, we started combing through Kaggle and found information for flights however were limited in the range of years. 
+
+## Description of the Analysis Phase: 
+
 ## Questions We Hope To Answer: 
 Our main question -which Airport has been most efficient through the volatility of the past 3 years? That being said, we will be looking at what factors make up the answer.
 
