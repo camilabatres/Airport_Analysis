@@ -5,7 +5,7 @@ For our project we are looking at the efficiency of local DC, Maryland, and Virg
 
 * Month/Year/Day of week
 * Operating airline
-* Airpor
+* Airport
 * Destination
      * NorthEast, SouthEast, MidWest, SouthWest, West
 * Scheduled Take Off Time
