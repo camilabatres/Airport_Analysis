@@ -121,6 +121,19 @@ output:
 1: delayed flights or 0: not delayed flights.
 This will help us determine which flights will be delayed under the input (above) conditions Since the data is not continous, we would use the line of code below to find out the probablity after training it. log(probability of delay/(1 - probability of delay))
 
+## Dashboard
+
+As we create our dashboard in Tableau, our data begins to tell a story. When booking flight, one of the first choices you have to make is "When are you traveling". While looking at the images below you may notice that Wednesdays and Thursdays outbound domestic flights are more likely to be delayed out of BWI and DCA over any other day in the week. IAD holds the lowest amount of delayed flights overall for our DMV airports. If your wondering what causes these delays, your first thought may be weather. While certain weather conditions do cause delays, it may surprise you that its not nearly as impactful as a Carrier, Late Aircraft, or NAS delay. You will also have to decide which airline you'll chose to reach your destination. Our dashboard will go over those categories in more depth. In 2018, at a glance, you'll quickly learn not to book through Southwest Airlines if your flying out of BWI. These visuals of validating efficiency for our local airports are what we look forward to presenting to our stakeholders.
+
+![Delays_By_Weekdays_Per_Airport](https://user-images.githubusercontent.com/99618784/179883159-a87a511e-d25b-4747-abee-60de10cc1233.png)
+
+![Carrier Flights Per Year Per Airport](https://user-images.githubusercontent.com/99618784/179883125-d7ca2e20-fde5-4f9b-9c94-2f12942a19d3.png)
+
+![Carrier Flights Per Year Per Airport](https://user-images.githubusercontent.com/99618784/179887115-53071c52-c864-4934-8196-edd47d3d6012.png)
+
+
+
+
 ### Communication
 
 We've made the most of our time in class and using office hours to get together as well. We check in with questions, ideas, status updates through Slack. We have also met after class and on weekends to further work on our project. We plan on meeting outside of class at least twice a week. One of our group members set up a Zoom account so we are not limited to 40 minute sessions. Sunday mornings are our go to meet time. 
