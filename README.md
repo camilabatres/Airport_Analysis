@@ -105,22 +105,11 @@ Our main question -which Airport has been most efficient through the volatility 
 ![Database ERD first draft](https://user-images.githubusercontent.com/99618784/178156404-6ebea7fa-4b84-4da8-b44f-9de8016d30ee.png)
 
 ### Machine Learning Model
-We will first use the logistic regression to predicts binary outcomes. I added a pandas file that demonstrates how we will process our data to make our predictions (sample_logistic_regression)  [sample code](https://github.com/camilabatres/dexter_project/blob/machine_learning_model/sample_logistic_regression.ipynb)
+After cleaning, we ran it through a logistic regression model. We chose this model because it helps us predict binary outcomes (delayed or not delayed) based on flight data from previous years. Before running the model, we had to adjust the data. First, we had to implement the countries to a higher level of categories (5 U.S Region). We also converted the categorical data (Airport, Airline, etc.) into dummy/indicator variables. On our first run of our model, we had 100% accuracy. After checking factor importance, we included the departure delayed variable in our x value. After dropping that variable, our model gave us a better representation of performance. Our accuracy score is 0.95, which made us more comfortable with our data pre-processing. In our fourth run, we dropped variables related to delays (drop CRS_DEP_TIME since we have flights in departure blocks) to ensure we had no variables that overlapped with delays. We believe our fourth run is the best way to run the model to avoid any overlapping. image
 
-input data: 
-year/month/day of week
-flight date
-Origin
-Dest
-DestStateName
-Crsdeptime
-Deptime
+The accuracy score is 0.501; the model is only 50% accurate. the sensitivity score is 1.00 The precision is .59. Of the 190 flights, only 113 had been actually delayed.
 
-output: 
-
-1: delayed flights or 0: not delayed flights.
-This will help us determine which flights will be delayed under the input (above) conditions Since the data is not continous, we would use the line of code below to find out the probablity after training it. log(probability of delay/(1 - probability of delay))
-
+The logistic regression is easier to implement, interpret, and train. We encountered some limitations that we discovered in our first run, and we had to look through the variables because the model was not predicting an accurate result. Our goal in the next few days is to run our data through a classification tree model and a neural network model. We uploaded a preliminary decision tree code that needs some adjustments. We will compare all three and their functionality with our data.
 ## Dashboard
 
 As we create our dashboard in Tableau, our data begins to tell a story. When booking flight, one of the first choices you have to make is "When are you traveling". While looking at the images below you may notice that Wednesdays and Thursdays outbound domestic flights are more likely to be delayed out of BWI and DCA over any other day in the week. IAD holds the lowest amount of delayed flights overall for our DMV airports. If your wondering what causes these delays, your first thought may be weather. While certain weather conditions do cause delays, it may surprise you that its not nearly as impactful as a Carrier, Late Aircraft, or NAS delay. You will also have to decide which airline you'll chose to reach your destination. Our dashboard will go over those categories in more depth. In 2018, at a glance, you'll quickly learn not to book through Southwest Airlines if your flying out of BWI. These visuals of validating efficiency for our local airports are what we look forward to presenting to our stakeholders.
