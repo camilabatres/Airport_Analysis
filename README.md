@@ -77,7 +77,7 @@ We worked with a couple websites to pull data for our project. The United States
 
 ## Description of the Data Exploration Phase:
 
-We began our data exploration with researching online sources of all flights in the U.S. Initially, we started combing through Kaggle and found information but it was limited. To provide an accurate analysis on our selected DMV airports, we needed to find enough Avaiaton data for pre-covid, peak covid, post-covid years. To validate our future findings, we considered bringing in general unemployement, Hotel/AirBnB, and pricing data. We ultimately decided against pulling inputs from said subjects due to not seeing a direct connection to the questions we want answered. The United States Department of Transportation website proved to be a dependable source for the 3 airports we are preforming our analysis on. The National Oceanic and Atomspheric Administration provided a weather summary that we wanted for our project as well. 
+We began our data exploration with researching online sources of all flights in the U.S. Initially, we started combing through Kaggle and found information but it was limited. To provide an accurate analysis on our selected DMV airports, we needed to find enough Avaiaton data for pre-covid, peak covid, post-covid years. To validate our future findings, we considered bringing in general unemployement, Hotel/AirBnB, and pricing data. Ultimately, we decided against pulling inputs from said subjects due to not seeing a direct connection to the questions we want answered. The United States Department of Transportation website proved to be a dependable source for the 3 airports we are preforming our analysis on. The National Oceanic and Atomspheric Administration provided a weather summary that we wanted for our project as well. 
 
 ![bts dexterproject](https://user-images.githubusercontent.com/99618784/179411577-4f4184a2-d491-4d2f-aca9-9f6726e91548.PNG)
 
@@ -85,7 +85,12 @@ We began our data exploration with researching online sources of all flights in 
 
 ## Description of the Analysis Phase: 
 
-The csv file that was provided after selecting our filters had millions of data points. Our focus is on delayed flights and delay time. As we clean up our data we set our types of delay to: weather, carrier, late aircraft delay(LAS), security, and national air system(NAS). Our analysis is specifically looking at outbound domestic flights so we simplified the destination to regions, to include Puerto Rico and the U.S Virgin Islands as non-continental regions. We are using SQL, Pandas, and Tableau to make sense of our data. 
+The information that was provided from our trusted sources had millions of data points. After importing our csv file in jupyter notebook, we created a dataframe using Pandas to work with our large dataset. While working with different data types it was necessary to identify what each column was for the analysis going forward.  . As we clean up our data we set our types of delay to: weather, carrier, late aircraft delay(LAS), security, and national air system(NAS). Our analysis is specifically looking at outbound domestic flights so we simplified the destination to regions, to include Puerto Rico and the U.S Virgin Islands as non-continental regions. We are using SQL, Pandas, and Tableau to make sense of our data. 
+
+
+![dataypes](https://user-images.githubusercontent.com/99618784/179977959-baa52d07-a8f0-44de-b9fa-0bf839485516.PNG)
+
+
 
 ![Screen Shot 2022-07-06 at 4 41 07 PM](https://user-images.githubusercontent.com/99618784/178156547-0f4734be-58cd-42f0-ab32-3ac893cf850e.png)
 
