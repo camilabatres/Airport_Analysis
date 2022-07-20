@@ -77,9 +77,10 @@ We worked with a couple websites to pull data for our project. The United States
 
 ## Description of the Data Exploration Phase:
 
-We began our data exploration with researching online sources of all flights in the U.S. Initially, we started combing through Kaggle and found information but it was limited. To provide an accurate analysis on effecient DMV airports, we needed to find enough Avaiaton data for pre-covid, peak covid, post-covid years. To validate our future findings. We considered bringing in general unemployement data but ultimately decided against it. The United States Department of Transportation website proved to be a dependable source for the 3 airports we are preforming our analysis on. The National Oceanic and Atomspheric Administration provided a weather summary that we wanted for our project as well. 
+We began our data exploration with researching online sources of all flights in the U.S. Initially, we started combing through Kaggle and found information but it was limited. To provide an accurate analysis on our selected DMV airports, we needed to find enough Avaiaton data for pre-covid, peak covid, post-covid years. To validate our future findings, we considered bringing in general unemployement, Hotel/AirBnB, and pricing data. We ultimately decided against pulling inputs from said subjects due to not seeing a direct connection to the questions we want answered. The United States Department of Transportation website proved to be a dependable source for the 3 airports we are preforming our analysis on. The National Oceanic and Atomspheric Administration provided a weather summary that we wanted for our project as well. 
 
 ![bts dexterproject](https://user-images.githubusercontent.com/99618784/179411577-4f4184a2-d491-4d2f-aca9-9f6726e91548.PNG)
+
 
 
 ## Description of the Analysis Phase: 
