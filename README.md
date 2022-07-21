@@ -11,7 +11,12 @@ For our project we are looking at the efficiency of local DC, Maryland, and Virg
 * Scheduled Take Off Time
 * Weather
 * Actual Departure
-
+* Delay Categories 
+    * Carrier Delay
+    * Late Aircraft Delay
+    * NAS Delay
+    * Weather Delay
+    * Security Delay
 
 ## Presentation 
 [Presentation](https://docs.google.com/presentation/d/1YszyuInGDuC_et4G8m_60k3zDEPiCfOyu6jOvvO_-Hg/edit#slide=id.gf47a8fbfff_1_0)
