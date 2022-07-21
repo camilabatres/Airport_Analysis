@@ -111,24 +111,11 @@ Satisfied with our dataset we arranged our flight delay reasoning column to: wea
 
 * Security: Delays or cancellations caused by evacuation of a terminal or concourse, re-boarding of aircraft because of security breach, inoperative screening equipment and/or long lines in excess of 29 minutes at screening areas.
 
+![delayreason dpcd](https://user-images.githubusercontent.com/99618784/180107458-a4ce4994-a031-4dbe-a96a-d5ca7dbfcd45.PNG)
+
 We repeated the process for the BWI and DCA dataframes. After running a summary on our IAD dataframe, we liked what we saw and continue to lookover our data. 
 
 ![iaddataframe dpcd](https://user-images.githubusercontent.com/99618784/180108482-0e8bbd93-af23-4227-88e5-9cb336c34441.PNG)
-
-
-![delayreason dpcd](https://user-images.githubusercontent.com/99618784/180107458-a4ce4994-a031-4dbe-a96a-d5ca7dbfcd45.PNG)
-
-
-
-
-
-![Screen Shot 2022-07-06 at 4 41 07 PM](https://user-images.githubusercontent.com/99618784/178156547-0f4734be-58cd-42f0-ab32-3ac893cf850e.png)
-
-
-
- 
-
-
 
 
 ## Questions We Hope To Answer: 
@@ -162,7 +149,7 @@ As we create our dashboard in Tableau, our data begins to tell a story. When boo
 
 ![Carrier Flights Per Year Per Airport](https://user-images.githubusercontent.com/99618784/179887115-53071c52-c864-4934-8196-edd47d3d6012.png)
 
-
+![Screen Shot 2022-07-06 at 4 41 07 PM](https://user-images.githubusercontent.com/99618784/178156547-0f4734be-58cd-42f0-ab32-3ac893cf850e.png)
 
 
 ### Communication
