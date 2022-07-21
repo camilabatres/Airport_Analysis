@@ -98,13 +98,13 @@ We filled state abreviations with state names and orgainzed each state by region
 
 ![loop dpcd](https://user-images.githubusercontent.com/99618784/180104416-6be151bb-936e-498b-9fe3-859f15c2988c.PNG)
 
-Checking counts of each flight per year for each airport, origination flights, destination flights per state, null values. Creating our outputs, the delay output column was determined by a flight having a late depature of 15 minutes or longer. Since we are also factoring pre covid and covid effects we created a column to define them. 0 being the output for pre covid and 1 being present times.
+Checking counts of each flight per year for each airport, origination flights, destination flights per state, null values. Creating our outputs, the delay output column was determined by a flight having a late depature of 15 minutes or longer. Since we are also factoring pre-covid and covid effects, we created a column to define them: 0 being the output for pre-covid and 1 being present times.
 
 ![delayoutput dpcd](https://user-images.githubusercontent.com/99618784/180105787-36b6cde1-aaa1-4d84-91e4-5efb0b16abc8.PNG)
 ![covid dpcd](https://user-images.githubusercontent.com/99618784/180107934-67754b35-208e-46e4-8f45-f2bfc1bab610.PNG)
 
 
-Satisfied with our dataset we arranged our flight delay reasoning column to: weather, carrier, late aircraft delay(LAS), security, and national air system(NAS).
+Satisfied with our dataset, we arranged our flight delay reasoning column to: weather, carrier, late aircraft delay(LAS), security, and national air system(NAS).
 
 * Air Carrier: The cause of the cancellation or delay was due to circumstances within the airline's control (e.g. maintenance or crew problems, aircraft cleaning, baggage loading, fueling, etc.).
 
