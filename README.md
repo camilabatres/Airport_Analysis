@@ -90,7 +90,7 @@ We began our data exploration with researching online sources of all flights in 
 
 ## Description of the Analysis Phase: 
 
-The information that was provided from our trusted sources had millions of data points. After importing our csv file in jupyter notebook, we created a dataframe using Pandas to work with our large dataset. While working with different data types it was necessary to identify what each column was for the analysis going forward. Afterwards we created a seperate dataframe for each airport using the following code:
+The information that was provided from our trusted sources had millions of data points. After importing our csv file in Jupyter Notebook, we created a dataframe using Pandas to work with our large dataset. While working with different data types it was necessary to identify what each column was for the analysis going forward. Afterwards we created a seperate dataframe for each airport using the following code:
 
 ![dataframe dpcd](https://user-images.githubusercontent.com/99618784/180104535-ed617892-2a0a-49bd-9761-721e36803d32.PNG)
 
