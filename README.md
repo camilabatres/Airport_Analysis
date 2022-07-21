@@ -85,14 +85,51 @@ We began our data exploration with researching online sources of all flights in 
 
 ## Description of the Analysis Phase: 
 
-The information that was provided from our trusted sources had millions of data points. After importing our csv file in jupyter notebook, we created a dataframe using Pandas to work with our large dataset. While working with different data types it was necessary to identify what each column was for the analysis going forward.  . As we clean up our data we set our types of delay to: weather, carrier, late aircraft delay(LAS), security, and national air system(NAS). Our analysis is specifically looking at outbound domestic flights so we simplified the destination to regions, to include Puerto Rico and the U.S Virgin Islands as non-continental regions. We are using SQL, Pandas, and Tableau to make sense of our data. 
+The information that was provided from our trusted sources had millions of data points. After importing our csv file in jupyter notebook, we created a dataframe using Pandas to work with our large dataset. While working with different data types it was necessary to identify what each column was for the analysis going forward. Afterwards we created a seperate dataframe for each airport using the following code:
+
+![dataframe dpcd](https://user-images.githubusercontent.com/99618784/180104535-ed617892-2a0a-49bd-9761-721e36803d32.PNG)
+
+We filled state abreviations with state names and orgainzed each state by region. Our analysis is specifically looking at outbound domestic flights so we simplified the destination to regions, to include Puerto Rico and the U.S Virgin Islands as non-continental regions. In order to do so we had to create a loop that would run through each dataframe and drop the state abreviation column and only show the full state name:
+
+![loop dpcd](https://user-images.githubusercontent.com/99618784/180104416-6be151bb-936e-498b-9fe3-859f15c2988c.PNG)
+
+Checking counts of each flight per year for each airport, origination flights, destination flights per state, null values. Creating our outputs, the delay output column was determined by a flight having a late depature of 15 minutes or longer. Since we are also factoring pre covid and covid effects we created a column to define them. 0 being the output for pre covid and 1 being present times.
+
+![delayoutput dpcd](https://user-images.githubusercontent.com/99618784/180105787-36b6cde1-aaa1-4d84-91e4-5efb0b16abc8.PNG)
+![covid dpcd](https://user-images.githubusercontent.com/99618784/180107934-67754b35-208e-46e4-8f45-f2bfc1bab610.PNG)
 
 
-![dataypes](https://user-images.githubusercontent.com/99618784/179977959-baa52d07-a8f0-44de-b9fa-0bf839485516.PNG)
+Satisfied with our dataset we arranged our flight delay reasoning column to: weather, carrier, late aircraft delay(LAS), security, and national air system(NAS).
+
+* Air Carrier: The cause of the cancellation or delay was due to circumstances within the airline's control (e.g. maintenance or crew problems, aircraft cleaning, baggage loading, fueling, etc.).
+
+* Extreme Weather: Significant meteorological conditions (actual or forecasted) that, in the judgment of the carrier, delays or prevents the operation of a flight such as tornado, blizzard or hurricane.
+
+* National Aviation System (NAS): Delays and cancellations attributable to the national aviation system that refer to a broad set of conditions, such as non-extreme weather conditions, airport operations, heavy traffic volume, and air traffic control.
+
+* Late-arriving aircraft: A previous flight with same aircraft arrived late, causing the present flight to depart late.
+
+* Security: Delays or cancellations caused by evacuation of a terminal or concourse, re-boarding of aircraft because of security breach, inoperative screening equipment and/or long lines in excess of 29 minutes at screening areas.
+
+We repeated the process for the BWI and DCA dataframes. After running a summary on our IAD dataframe, we liked what we saw and continue to lookover our data. 
+
+![iaddataframe dpcd](https://user-images.githubusercontent.com/99618784/180108482-0e8bbd93-af23-4227-88e5-9cb336c34441.PNG)
+
+
+![delayreason dpcd](https://user-images.githubusercontent.com/99618784/180107458-a4ce4994-a031-4dbe-a96a-d5ca7dbfcd45.PNG)
+
+
 
 
 
 ![Screen Shot 2022-07-06 at 4 41 07 PM](https://user-images.githubusercontent.com/99618784/178156547-0f4734be-58cd-42f0-ab32-3ac893cf850e.png)
+
+
+
+ 
+
+
+
 
 ## Questions We Hope To Answer: 
 Our main question -which Airport has been most efficient through the volatility of the past 3 years? That being said, we will be looking at what factors make up the answer.
