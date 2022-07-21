@@ -27,7 +27,7 @@ As we approach post-pandemic normalcy, we can agree that a vacation (for whateve
 
 ## Data Source:
 
-We worked with a couple websites to pull data for our project. The United States Department of Transportation provided statistics on Avaiation Data that We filtered through to grab specific inputs for our analysis. The National Oceanic and Atomspheric Administration provided daily weather summaries used in our analysis as well, as it coincideds with delays.
+We worked with a couple websites to pull data for our project. The United States Department of Transportation provided statistics on Avaiation Data that we filtered through to grab specific inputs for our analysis. The National Oceanic and Atomspheric Administration provided daily weather summaries used in our analysis as well, as it coincideds with delays.
 
 [Bureau of Transportation Statistics (BTS)](https://www.transtats.bts.gov/DL_SelectFields.aspx?gnoyr_VQ=FGK&QO_fu146_anzr=b0-gvzr)
 
