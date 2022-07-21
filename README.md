@@ -94,11 +94,11 @@ The information that was provided from our trusted sources had millions of data 
 
 ![dataframe dpcd](https://user-images.githubusercontent.com/99618784/180104535-ed617892-2a0a-49bd-9761-721e36803d32.PNG)
 
-We filled state abreviations with state names and orgainzed each state by region. Our analysis is specifically looking at outbound domestic flights so we simplified the destination to regions, to include Puerto Rico and the U.S Virgin Islands as non-continental regions. In order to do so we had to create a loop that would run through each dataframe and drop the state abreviation column and only show the full state name:
+We filled state abreviations with state names and orgainzed each state by region. Our analysis is specifically looking at outbound domestic flights so we simplified the destination to regions, to include Puerto Rico and the U.S Virgin Islands as non-continental regions. Hawaii and Alaska are included as part of the Western region. In order to do so, we had to create a loop that would run through each dataframe and drop the state abreviation column and only show the full state name:
 
 ![loop dpcd](https://user-images.githubusercontent.com/99618784/180104416-6be151bb-936e-498b-9fe3-859f15c2988c.PNG)
 
-Checking counts of each flight per year for each airport, origination flights, destination flights per state, null values. Creating our outputs, the delay output column was determined by a flight having a late depature of 15 minutes or longer. Since we are also factoring pre-covid and covid effects, we created a column to define them: 0 being the output for pre-covid and 1 being present times.
+We checked counts of each flight per year for each airport, origination flights, destination flights per state and null values. Creating our outputs, the delay output column was determined by a flight having a late depature of 15 minutes or longer. Since we are also factoring pre-covid and covid effects, we created a column to define them: 0 being the output for pre-covid and 1 being present times.
 
 ![delayoutput dpcd](https://user-images.githubusercontent.com/99618784/180105787-36b6cde1-aaa1-4d84-91e4-5efb0b16abc8.PNG)
 ![covid dpcd](https://user-images.githubusercontent.com/99618784/180107934-67754b35-208e-46e4-8f45-f2bfc1bab610.PNG)
