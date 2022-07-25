@@ -155,7 +155,7 @@ As we create our dashboard in Tableau, our data begins to tell a story. When boo
 
 ![Carrier Flights Per Year Per Airport](https://user-images.githubusercontent.com/99618784/179883125-d7ca2e20-fde5-4f9b-9c94-2f12942a19d3.png)
 
-![Carrier Flights Per Year Per Airport](https://user-images.githubusercontent.com/99618784/179887115-53071c52-c864-4934-8196-edd47d3d6012.png)
+
 
 ![Screen Shot 2022-07-06 at 4 41 07 PM](https://user-images.githubusercontent.com/99618784/178156547-0f4734be-58cd-42f0-ab32-3ac893cf850e.png)
 
