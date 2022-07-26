@@ -1,31 +1,19 @@
 # DMV Airport Efficiency Final Project
 
-## Overview: 
-For our project we are looking at the efficiency of local DC, Maryland, and Virginia (DMV) Airports for outbound domestic flights. Specifically we will be pulling data across Baltimore Washington International (BWI), Dules International Airport (IAD), Ronald Reagan Washington National Airport (DCA) from January 2018 through March 2022. Our group will be using the following data points to determine the best run airport:
+## Reasoning For Our Project:
 
-* Month/Year/Day of week
-* Operating airline
-* Airport
-* Destination
-     * NorthEast, SouthEast, MidWest, SouthWest, West
-* Scheduled Take Off Time
-* Weather
-* Actual Departure
-* Delay Categories 
-    * Carrier Delay
-    * Late Aircraft Delay
-    * NAS Delay
-    * Weather Delay
-    * Security Delay
+As we approach post-pandemic normalcy, we can agree that a vacation (for whatever reason) is long overdue. Making up for lost time, especially while traveling, is something truly important to us. Once we've completed this project, we can use this information to plan trips and share with others outside of academia. Working with our large dataset is also allowing us to use what we've learned thoughout our class to practice real world situations. The findings from our project can help both airports and airlines improve flight efficiency by identifying delays and their reasons.
+
+## Overview: 
+For our project we are looking at the efficiency of local DC, Maryland, and Virginia (DMV) Airports for outbound domestic flights. Specifically we will be pulling data across Baltimore Washington International (BWI), Dulles International Airport (IAD), and Ronald Reagan Washington National Airport (DCA) from January 2018 through March 2022. Destinations were seperated by region; NorthEast, SouthEast, MidWest, SouthWest, West. Our group used multiple data points to determine the best run airport. We looked at the day of the week, month and year of flight information. The operating airline, scheduled take off time and actual departure, just to name a few. There are 5 delay categories that we agreed best represented our analysis: Carrier, Late Aircraft, National Aviation System, Weather, and Security. 
+
+
+![us-regions-map-census-1024x683](https://user-images.githubusercontent.com/99618784/180892290-2fe27ea5-cbb7-4ad8-9056-bc066ba32826.jpg)
 
 ## Presentation 
 [Presentation](https://docs.google.com/presentation/d/1YszyuInGDuC_et4G8m_60k3zDEPiCfOyu6jOvvO_-Hg/edit#slide=id.gf47a8fbfff_1_0)
 
 [Tableau Dashboard](https://public.tableau.com/shared/NST8W37XT?:display_count=n&:origin=viz_share_link)
-
-## Reasoning For Our Project:
-
-As we approach post-pandemic normalcy, we can agree that a vacation (for whatever reason) is long overdue. Making up for lost time, especially while traveling, is something truly important to us. Once we've completed this project, we can use this information to plan trips and share with others outside of academia. Working with our large dataset is also allowing us to use what we've learned thoughout our class to practice real world situations. The findings from our project can help both airports and airlines improve flight efficiency by identifying delays and their reasons.
 
 ## Data Source:
 
@@ -155,9 +143,7 @@ As we create our dashboard in Tableau, our data begins to tell a story. When boo
 
 ![Carrier Flights Per Year Per Airport](https://user-images.githubusercontent.com/99618784/179883125-d7ca2e20-fde5-4f9b-9c94-2f12942a19d3.png)
 
-
-
-![Screen Shot 2022-07-06 at 4 41 07 PM](https://user-images.githubusercontent.com/99618784/178156547-0f4734be-58cd-42f0-ab32-3ac893cf850e.png)
+![Delay Categories Per Airline_Year_Airport (1)](https://user-images.githubusercontent.com/99618784/180891205-8b84abf7-3520-4e0d-b22f-4ae7256e8c94.png)
 
 
 ### Communication
