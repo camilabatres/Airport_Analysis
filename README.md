@@ -146,9 +146,6 @@ As we create our dashboard in Tableau, our data begins to tell a story. When boo
 ![Delay Categories Per Airline_Year_Airport (1)](https://user-images.githubusercontent.com/99618784/180891205-8b84abf7-3520-4e0d-b22f-4ae7256e8c94.png)
 
 
-### Communication
-
-We've made the most of our time in class and using office hours to get together as well. We check in with questions, ideas, status updates through Slack. We have also met after class and on weekends to further work on our project. We plan on meeting outside of class at least twice a week. One of our group members set up a Zoom account so we are not limited to 40 minute sessions. Sunday mornings are our go-to meeting time. 
 
 ### Technology
 
