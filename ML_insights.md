@@ -18,5 +18,8 @@ We are dropping the same columns for every model because they overlap with our t
 * CRS_DEP_TIME
 
 ## Processing 
-* We separated the feature (x) from the target (y) 
-              * Our target is “delayed,” while the rest of the columns are our features that might influence the chances of a flight being delayed 
+* We separated the feature (x) from the target (y)
+ Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
