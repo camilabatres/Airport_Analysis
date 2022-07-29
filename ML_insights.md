@@ -39,6 +39,10 @@ We are dropping the same columns for every model because they overlap with our t
 * Above is a graph demonstrating each feature's importance in this model. The five most influential features (positive number) are Year and different time departures.  
 * We believe the logistic regression performance is poor because of the low number of predicted delayed and low sensitivity scores. Therefore, we decided to use other models to find out if there is one that can process our data better. 
 
+### Decision Trees ###
+* Same preprocessing steps as logistic regression
+* Accuracy 
+  * 
 
 
 
