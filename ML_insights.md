@@ -18,8 +18,5 @@ We are dropping the same columns for every model because they overlap with our t
 * CRS_DEP_TIME
 
 ## Processing 
-* We separated the feature (x) from the target (y)
- Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
+* _We separated the feature (x) from the target (y)_ : Our target is “delayed,” while the rest of the columns are our features that might influence the chances of a flight being delayed 
+* _Training and Test_ : The y-test value in the logistic regression model has 222,493 on-time flights and 47,885 delayed flights.
