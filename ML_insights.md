@@ -29,8 +29,8 @@ We are dropping the same columns for every model because they overlap with our t
   * On the “actual delayed” row, 121 flights were predicted to be true positive. This means that out of the 47,885 delayed flights used in the test, only 121 were predicted correctly, while the rest were predicted “on time” when the flights were actually “delayed.”
  * Of the actual on-time flight row, 222,768 were true negative. This means that out of the 222,850 on-time flights used in the model, 222,768 were predicted correctly, while the rest were predicted as “delayed” when the flights were actually “on time.” 
 * Precision 
- * The precision score is 0.60. Of the 203 flights predicted to be delayed, 121 were delayed. *  * This model is somewhat reliable for positive classification. 
-Sensitivity
-The sensitivity score is very, very low (0.00). The likelihood of predicting a delayed flight is very low. The model is missing a lot of positive results. 
-Feature Importance 
+ * The precision score is 0.60. Of the 203 flights predicted to be delayed, 121 were delayed.This model is somewhat reliable for positive classification. 
+* Sensitivity
+ * The sensitivity score is very, very low (0.00). The likelihood of predicting a delayed flight is very low. The model is missing a lot of positive results. 
+* Feature Importance 
 
