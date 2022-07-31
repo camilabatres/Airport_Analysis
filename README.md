@@ -8,7 +8,8 @@ As we approach post-pandemic normalcy, we can agree that a vacation (for whateve
 For our project we are looking at the efficiency of local DC, Maryland, and Virginia (DMV) Airports for outbound domestic flights. Specifically we will be pulling data across Baltimore Washington International (BWI), Dulles International Airport (IAD), and Ronald Reagan Washington National Airport (DCA) from January 2018 through March 2022. Destinations were seperated by region; NorthEast, SouthEast, MidWest, SouthWest, West. Our group used multiple data points to determine the best run airport. We looked at the day of the week, month and year of flight information. The operating airline, scheduled take off time and actual departure, just to name a few. There are 5 delay categories that we agreed best represented our analysis: Carrier, Late Aircraft, National Aviation System, Weather, and Security. 
 
 
-![us-regions-map-census-1024x683](https://user-images.githubusercontent.com/99618784/180892290-2fe27ea5-cbb7-4ad8-9056-bc066ba32826.jpg)
+![Screen Shot 2022-07-06 at 4 41 07 PM](https://user-images.githubusercontent.com/99618784/182041158-da7c5cc7-290c-43f8-927f-5d02aec3d915.png)
+
 
 ## Presentation 
 [Presentation](https://docs.google.com/presentation/d/1YszyuInGDuC_et4G8m_60k3zDEPiCfOyu6jOvvO_-Hg/edit#slide=id.gf47a8fbfff_1_0)
