@@ -155,8 +155,8 @@ We are dropping the same columns for every model because they overlap with our t
 #### Insights on Our Machine Learning Models 
 * After pre-processing and processing our data, we decided to run our data through 4 different supervised learning models: Logistic Regression, Decision Tree, Random Forest, and Neural Network. Below is a file where we write our insights on each model. 
 
-ML_insights.md
-https://github.com/camilabatres/dexter_project/blob/machine_learning_model/ML_insights.md
+
+[ML_insights.md](https://github.com/camilabatres/dexter_project/blob/machine_learning_model/ML_insights.md)
 
 ## Dashboard
 
