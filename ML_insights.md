@@ -42,7 +42,7 @@ We are dropping the same columns for every model because they overlap with our t
 ### Decision Trees ###
 * Same preprocessing steps as logistic regression
 * Accuracy 
-  * 
-
-
-
+  * The accuracy score is .8164
+  * There are a lot more predicted delays than the logistic regression model
+  * On the “actual delayed” row, 13,954 flights were predicted to be true positive. This means that out of the 48,242 delayed flights used in the test, only 13,954 were predicted correctly, while the rest were predicted “on time” when the flights were actually “delayed.”
+  
