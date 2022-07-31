@@ -86,7 +86,7 @@ We are dropping the same columns for every model because they overlap with our t
 *Feature Importance 
 ![image](https://user-images.githubusercontent.com/100107588/182034861-0f4407fc-0e37-4de8-bd44-fa0c96281eb8.png)
 ![image](https://user-images.githubusercontent.com/100107588/182034884-ca147e96-4655-4da7-9e9c-5f794efedd3d.png)
-   * Above is a graph demonstrating each feature's importance in this model. The five most influential features (positive number) are the day of the month, day of the week, month, year, and region southeast. 
+   * Above is a graph demonstrating each feature's importance in this model. The five most influential features (positive number) are the year, covid, departure times, and UA airline. This is the only model that has covid in the top 5 most influential features. 
 
 ## Comparing All The Models 
 
