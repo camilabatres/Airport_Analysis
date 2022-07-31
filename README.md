@@ -167,6 +167,7 @@ We are dropping the same columns for every model because they overlap with our t
 * We believe the Decision Tree is a better performing model with higher precision and sensitivity.
 * Even though Decision Tree has the lowest precision score out of all the models, it has the highest sensitivity score. In this situation, sensitivity is more important than the precision. 
   * False positives can be ruled out by double checking the flight status. It is more important to detect delayed flights.  
+  * There is no penalty on misclassifying flights 
 * Advantages: 
   * Decision Tree Model is very intuitive and easy to explain to stakeholders
 * Disadvantages: 
