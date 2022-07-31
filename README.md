@@ -8,8 +8,7 @@ As we approach post-pandemic normalcy, we can agree that a vacation (for whateve
 For our project we are looking at the efficiency of local DC, Maryland, and Virginia (DMV) Airports for outbound domestic flights. Specifically we will be pulling data across Baltimore Washington International (BWI), Dulles International Airport (IAD), and Ronald Reagan Washington National Airport (DCA) from January 2018 through March 2022. Destinations were seperated by region; NorthEast, SouthEast, MidWest, SouthWest, West. Our group used multiple data points to determine the best run airport. We looked at the day of the week, month and year of flight information. The operating airline, scheduled take off time and actual departure, just to name a few. There are 5 delay categories that we agreed best represented our analysis: Carrier, Late Aircraft, National Aviation System, Weather, and Security. 
 
 
-![Screen Shot 2022-07-06 at 4 41 07 PM](https://user-images.githubusercontent.com/99618784/182041158-da7c5cc7-290c-43f8-927f-5d02aec3d915.png)
-
+![us-regions-map-census-1024x683](https://user-images.githubusercontent.com/99618784/180892290-2fe27ea5-cbb7-4ad8-9056-bc066ba32826.jpg)
 
 ## Presentation 
 [Presentation](https://docs.google.com/presentation/d/1YszyuInGDuC_et4G8m_60k3zDEPiCfOyu6jOvvO_-Hg/edit#slide=id.gf47a8fbfff_1_0)
@@ -164,7 +163,16 @@ We are dropping the same columns for every model because they overlap with our t
 * Precision - The model with the highest precision score is the Logistic Regression. The Neural Network is very close to the Logistic Regression score. The other two models are in the .40s.
 * Sensitivity - The Random Forest and Decision Tree models' sensitivity scores are in the .20s. Logistic Regression and Neural Network have way lower scores, close to 0. 
 
-* If we compare the Logistic Regression and the Neural Network, both model's outputs are very similar. We noticed that our dataset with thousands fo data points overwhelmed the logistic regression model, while the Neural Network evaluated every interaction within the complex features of our data. Since we are building a classifier with multiple data points, the Neural Network is the best model. Even though it has a lower sensitivity score than the two other models, we believe that in this situation precision is more important than sensitivity. 
+##### Choosing Model 
+* We believe the Decision Tree is a better performing model with higher precision and sensitivity.
+* Even though Decision Tree has the lowest precision score out of all the models, it has the highest sensitivity score. In this situation, sensitivity is more important than the precision. 
+  * False positives can be ruled out by double checking the flight status. It is more important to detect delayed flights.  
+* Advantages: 
+  * Decision Tree Model is very untuitive and easy to explain to stakeholders
+* Disadvantages: 
+  * A small change in the data can cause a large change in the structure 
+ 
+
 
 ## Dashboard
 
