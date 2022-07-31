@@ -40,7 +40,9 @@ We are dropping the same columns for every model because they overlap with our t
 * We believe the logistic regression performance is poor because of the low number of predicted delayed and low sensitivity scores. Therefore, we decided to use other models to find out if there is one that can process our data better. 
 
 ### Decision Trees ###
-* Same preprocessing steps as logistic regression
+* Same preprocessing steps as logistic regression.
+![image](https://user-images.githubusercontent.com/100107588/182034131-7452a681-6b07-4950-b113-55278b5842a9.png)
+
 * Accuracy 
   * The accuracy score is .8164
   * There are a lot more predicted delays than the logistic regression model
@@ -49,5 +51,10 @@ We are dropping the same columns for every model because they overlap with our t
 * Precision
   * The precision score is 0.42. Of the 33,071 flights predicted to be delayed, 13954 were delayed. This model is somewhat reliable for positive classification. 
 * Sensitivity 
-  * The sensitivity score is very low (0.29). The likelihood of predicting a delayed flight is very low. The model is missing many positive results
+  * The sensitivity score is very low (0.29). The likelihood of predicting a delayed flight is very low. The model is missing many positive results.
+* Feature Importance 
+ ![image](https://user-images.githubusercontent.com/100107588/182034137-0f50bb2a-1577-4767-8cd1-8b66630c6767.png)
+![image](https://user-images.githubusercontent.com/100107588/182034149-f0775f09-78a1-4eec-ae0e-394f2f9ade92.png)
+  * Above is a graph demonstrating each feature's importance in this model. The five most influential features (positive number) are the day of the month, day of the week, month, year, and region southeast. 
+  * We believe the Decision Tree is a better performing model with higher precision and sensitivity. We still chose to run a random forest model to see how that model performs. 
   
