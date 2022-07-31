@@ -68,8 +68,28 @@ We are dropping the same columns for every model because they overlap with our t
    * The precision score is 0.47. Of the 26,243 flights predicted to be delayed, 12,389 were delayed. This model is somewhat reliable for positive classification. 
 * Sensitivity 
    * The sensitivity score is 0.26, which is also low. The likelihood of predicting a delayed flight is low. The model is missing many positive results.
+* Feature Importance  
 ![image](https://user-images.githubusercontent.com/100107588/182034533-e75de25e-eeea-4665-b0db-0f183bc78d23.png)
 ![image](https://user-images.githubusercontent.com/100107588/182034534-c0dc21ae-fe8b-4fcc-a471-be3eaaddab63.png)
+   * The five most important features are above. Day of the month is the most important x feature in this model. The rest of the features are also related to the date: month, year, and day of the week. When you fly out is the most influential feature in this model. 
+
+ ### Neural Network ###
+![image](https://user-images.githubusercontent.com/100107588/182034711-966538d0-ccdd-4b54-b422-7d65acccc06b.png)
+* Accuracy 
+   * The accuracy score is .83
+   * On the “actual delayed” row, 3,898 flights were predicted to be true positive. This means that out of the 47,885 delayed flights used in the test, 3,898 were predicted correctly, while the rest were predicted “on time” when the flights were actually “delayed.”
+   * Of the actual on-time flight row, 220,130 were true negative. This means that out of the 222,850 on-time flights used in the model, 220,130 were predicted correctly, while the rest were predicted as “delayed” when the flights were actually “on time.” 
+* Precision 
+   * The precision score is 0.59. Of the 6,618 flights predicted to be delayed, 3,898 were delayed. This model is somewhat reliable for positive classification. 
+* Sensitivity 
+   * The sensitivity score is 0.08, which is very low. The likelihood of predicting a delayed flight is low. The model is missing many positive results. 
+*Feature Importance 
+![image](https://user-images.githubusercontent.com/100107588/182034861-0f4407fc-0e37-4de8-bd44-fa0c96281eb8.png)
+![image](https://user-images.githubusercontent.com/100107588/182034884-ca147e96-4655-4da7-9e9c-5f794efedd3d.png)
+   * Above is a graph demonstrating each feature's importance in this model. The five most influential features (positive number) are the day of the month, day of the week, month, year, and region southeast. 
+
+## Comparing All The Models 
+
 
 
 
