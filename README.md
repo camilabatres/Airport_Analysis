@@ -158,10 +158,13 @@ We are dropping the same columns for every model because they overlap with our t
 [ML_insights.md](https://github.com/camilabatres/dexter_project/blob/machine_learning_model/ML_insights.md)
 
 #### Comparing All The Models 
-![image](https://user-images.githubusercontent.com/100107588/182035393-5d36c823-27cb-4f17-abb2-17924c2e040a.png)
-* Accuarcy - All the models have similar accuracy score between the 0.80-0.83 range. Therefore, we need to use other indicators to find out which one is the best model for our data. 
+![image](https://user-images.githubusercontent.com/100107588/182040092-9f93d890-f130-4f7f-b8c9-677ad2ddb87a.png)
+* Accuarcy - All the models have similar accuracy score between the 0.82-0.83 range. Therefore, we need to use other indicators to find out which one is the best model for our data. 
 * Precision - The model with the highest precision score is the Logistic Regression. The Neural Network is very close to the Logistic Regression score. The other two models are in the .40s.
 * Sensitivity - The Random Forest and Decision Tree models' sensitivity scores are in the .20s. Logistic Regression and Neural Network have way lower scores, close to 0. 
+
+* If we compare the Logistic Regression and the Neural Network, both model's outputs are very similar. We noticed that our dataset with thousands fo data points overwhelmed the logistic regression model, while the Neural Network evaluated every interaction within the complex features of our data. Since we are building a classifier with multiple data points, the Neural Network is the best model. Even though it has a lower sensitivity score than the two other models, we believe that in this situation precision is more important than sensitivity. 
+
 ## Dashboard
 
 As we create our dashboard in Tableau, our data begins to tell a story. When booking flight, one of the first choices you have to make is "When are you traveling". While looking at the images below you may notice that Wednesdays and Thursdays outbound domestic flights are more likely to be delayed out of BWI and DCA over any other day in the week. IAD holds the lowest amount of delayed flights overall for our DMV airports. If your wondering what causes these delays, your first thought may be weather. While certain weather conditions do cause delays, it may surprise you that its not nearly as impactful as a Carrier, Late Aircraft, or NAS delay. You will also have to decide which airline you'll chose to reach your destination. Our dashboard will go over those categories in more depth. In 2018, at a glance, you'll quickly learn not to book through Southwest Airlines if your flying out of BWI. These visuals of validating efficiency for our local airports are what we look forward to presenting to our stakeholders.
