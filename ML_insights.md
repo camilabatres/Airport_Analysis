@@ -59,4 +59,12 @@ We are dropping the same columns for every model because they overlap with our t
   * We believe the Decision Tree is a better performing model with higher precision and sensitivity. We still chose to run a random forest model to see how that model performs. 
  
  ### Random Forest ###
- 
+ * Accuracy 
+   * The accuracy score is .82
+   *  On the “actual delayed” row, 12,389 flights were predicted to be true positive. This means that out of the 48,242 delayed flights used in the test, 12,389 were predicted correctly, while the rest were predicted “on time” when the flights were actually “delayed.”
+   * Of the actual on-time flight row, 208,639 were true negative. This means that out of the 222,493 on-time flights used in the model, 208,242 were predicted correctly, while the rest were predicted as “delayed” when the flights were actually “on time.” 
+* Precision 
+   * The precision score is 0.47. Of the 26,243 flights predicted to be delayed, 12,389 were delayed. This model is somewhat reliable for positive classification. 
+* Sensitivity 
+   * The sensitivity score is 0.26, which is also low. The likelihood of predicting a delayed flight is low. The model is missing many positive results
+
