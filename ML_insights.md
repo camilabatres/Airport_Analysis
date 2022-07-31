@@ -45,4 +45,9 @@ We are dropping the same columns for every model because they overlap with our t
   * The accuracy score is .8164
   * There are a lot more predicted delays than the logistic regression model
   * On the “actual delayed” row, 13,954 flights were predicted to be true positive. This means that out of the 48,242 delayed flights used in the test, only 13,954 were predicted correctly, while the rest were predicted “on time” when the flights were actually “delayed.”
+  * Of the actual on-time flight row, 203,376 were true negative. This means that out of the 222,768 on-time flights used in the model, 203,376 were predicted correctly, while the rest were predicted as “delayed” when the flights were actually “on time.” 
+* Precision
+  * The precision score is 0.42. Of the 33,071 flights predicted to be delayed, 13954 were delayed. This model is somewhat reliable for positive classification. 
+* Sensitivity 
+  * The sensitivity score is very low (0.29). The likelihood of predicting a delayed flight is very low. The model is missing many positive results
   
