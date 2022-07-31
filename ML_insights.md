@@ -90,6 +90,12 @@ We are dropping the same columns for every model because they overlap with our t
 
 ## Comparing All The Models 
 ![image](https://user-images.githubusercontent.com/100107588/182035393-5d36c823-27cb-4f17-abb2-17924c2e040a.png)
+* Accuarcy - All the models have similar accuracy score between the 0.80-0.83 range. Therefore, we need to use other indicators to find out which one is the best model for our data. 
+* Precision - The model with the highest precision score is the Logistic Regression. The Neural Network is very close to the Logistic Regression score. The other two models are in the .40s.
+* Sensitivity - The Random Forest and Decision Tree models' sensitivity scores are in the .20s. Logistic Regression and Neural Network have way lower scores, close to 0. 
+
+
+
 
 
 
