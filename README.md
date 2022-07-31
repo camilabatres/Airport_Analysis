@@ -155,7 +155,8 @@ We are dropping the same columns for every model because they overlap with our t
 #### Insights on Our Machine Learning Models 
 * After pre-processing and processing our data, we decided to run our data through 4 different machine learning models: Logistic Regression, Decision Tree, Random Forest, and Neural Network. Below is a file with insights on each model. 
 
-[ML_insights.md](https://github.com/camilabatres/dexter_project/blob/machine_learning_model/ML_insights.md)
+[ML_insights.md]
+(https://github.com/camilabatres/dexter_project/blob/main/README.md)
 
 #### Comparing All The Models 
 ![image](https://user-images.githubusercontent.com/100107588/182040092-9f93d890-f130-4f7f-b8c9-677ad2ddb87a.png)
