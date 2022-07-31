@@ -66,11 +66,6 @@
 ![image](https://user-images.githubusercontent.com/100107588/182034884-ca147e96-4655-4da7-9e9c-5f794efedd3d.png)
    * Above is a graph demonstrating each feature's importance in this model. The five most influential features (positive number) are the year, covid, departure times, and UA airline. This is the only model that has covid in the top 5 most influential features. 
 
-## Comparing All The Models 
-![image](https://user-images.githubusercontent.com/100107588/182035393-5d36c823-27cb-4f17-abb2-17924c2e040a.png)
-* Accuarcy - All the models have similar accuracy score between the 0.80-0.83 range. Therefore, we need to use other indicators to find out which one is the best model for our data. 
-* Precision - The model with the highest precision score is the Logistic Regression. The Neural Network is very close to the Logistic Regression score. The other two models are in the .40s.
-* Sensitivity - The Random Forest and Decision Tree models' sensitivity scores are in the .20s. Logistic Regression and Neural Network have way lower scores, close to 0. 
 
 
 
