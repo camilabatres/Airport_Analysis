@@ -89,6 +89,7 @@ We are dropping the same columns for every model because they overlap with our t
    * Above is a graph demonstrating each feature's importance in this model. The five most influential features (positive number) are the year, covid, departure times, and UA airline. This is the only model that has covid in the top 5 most influential features. 
 
 ## Comparing All The Models 
+![image](https://user-images.githubusercontent.com/100107588/182035393-5d36c823-27cb-4f17-abb2-17924c2e040a.png)
 
 
 
