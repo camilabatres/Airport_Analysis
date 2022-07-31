@@ -57,4 +57,6 @@ We are dropping the same columns for every model because they overlap with our t
 ![image](https://user-images.githubusercontent.com/100107588/182034149-f0775f09-78a1-4eec-ae0e-394f2f9ade92.png)
   * Above is a graph demonstrating each feature's importance in this model. The five most influential features (positive number) are the day of the month, day of the week, month, year, and region southeast. 
   * We believe the Decision Tree is a better performing model with higher precision and sensitivity. We still chose to run a random forest model to see how that model performs. 
-  
+ 
+ ### Random Forest ###
+ 
