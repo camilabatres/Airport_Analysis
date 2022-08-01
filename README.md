@@ -195,9 +195,11 @@ Total Flights vs. Delays:
 
 <img width="1374" alt="Carrier Accountability for Delays by Airport" src="https://user-images.githubusercontent.com/95712234/182051501-8eb532c5-3170-4f16-91fb-6b5fbaf3fbca.png">
 
-<img width="1382" alt="Delayed Flights by Day per Airport (BWI)" src="https://user-images.githubusercontent.com/95712234/182051786-c138d7a1-d63a-477c-a3fa-7528c65f2d87.png">
+<img width="1388" alt="Delayed Flights by Day per Airport (BWI - 2021)" src="https://user-images.githubusercontent.com/95712234/182051955-b505056e-b680-4680-b661-297546588e2e.png">
 
+<img width="1370" alt="Delayed Flights by Day per Airport (DCA - 2021)" src="https://user-images.githubusercontent.com/95712234/182052015-29f49adf-6a0c-49d7-9620-cbda9d1c00ae.png">
 
+<img width="1372" alt="Delayed Flights by Day per Airport (IAD - 2021)" src="https://user-images.githubusercontent.com/95712234/182052077-9105f7ba-c8fc-4b95-ac00-19e390ff12f3.png">
 
 
 ### Technology
