@@ -193,6 +193,9 @@ Total Flights vs. Delays:
 
 ![Airport Delay Reasons](https://user-images.githubusercontent.com/95712234/182051047-6cf98e06-3b36-405a-baea-d5d6c76409a2.png)
 
+<img width="1374" alt="Carrier Accountability for Delays by Airport" src="https://user-images.githubusercontent.com/95712234/182051501-8eb532c5-3170-4f16-91fb-6b5fbaf3fbca.png">
+
+
 
 ### Technology
 
