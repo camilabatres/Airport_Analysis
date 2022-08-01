@@ -1,29 +1,19 @@
 # DMV Airport Efficiency Final Project
 
-## Overview: 
-For our project we are looking at the efficiency of local DC, Maryland, and Virginia (DMV) Airports for outbound domestic flights. Specifically we will be pulling data across Baltimore Washington International (BWI), Dules International Airport (IAD), Ronald Reagan Washington National Airport (DCA) from January 2018 through March 2022. Our group will be using the following data points to determine the best run airport:
+## Reasoning For Our Project:
 
-* Month/Year/Day of week
-* Operating airline
-* Airport
-* Destination
-     * NorthEast, SouthEast, MidWest, SouthWest, West
-* Scheduled Take Off Time
-* Weather
-* Actual Departure
-* Delay Categories 
-    * Carrier Delay
-    * Late Aircraft Delay
-    * NAS Delay
-    * Weather Delay
-    * Security Delay
+As we approach post-pandemic normalcy, we can agree that a vacation (for whatever reason) is long overdue. Making up for lost time, especially while traveling, is something truly important to us. Once we've completed this project, we can use this information to plan trips and share with others outside of academia. Working with our large dataset is also allowing us to use what we've learned thoughout our class to practice real world situations. The findings from our project can help both airports and airlines improve flight efficiency by identifying delays and their reasons.
+
+## Overview: 
+For our project we are looking at the efficiency of local DC, Maryland, and Virginia (DMV) Airports for outbound domestic flights. Specifically we will be pulling data across Baltimore Washington International (BWI), Dulles International Airport (IAD), and Ronald Reagan Washington National Airport (DCA) from January 2018 through March 2022. Destinations were seperated by region; NorthEast, SouthEast, MidWest, SouthWest, West. Our group used multiple data points to determine the best run airport. We looked at the day of the week, month and year of flight information. The operating airline, scheduled take off time and actual departure, just to name a few. There are 5 delay categories that we agreed best represented our analysis: Carrier, Late Aircraft, National Aviation System, Weather, and Security. 
+
+
+![Screen Shot 2022-07-06 at 4 41 07 PM](https://user-images.githubusercontent.com/99618784/182042461-9c97e970-bb0a-418e-9ea5-781c20bec000.png)
 
 ## Presentation 
 [Presentation](https://docs.google.com/presentation/d/1YszyuInGDuC_et4G8m_60k3zDEPiCfOyu6jOvvO_-Hg/edit#slide=id.gf47a8fbfff_1_0)
 
-## Reasoning For Our Project:
-
-As we approach post-pandemic normalcy, we can agree that a vacation (for whatever reason) is long overdue. Making up for lost time, especially while traveling, is something truly important to us. Once we've completed this project, we can use this information to plan trips and share with others outside of academia. Working with our large dataset is also allowing us to use what we've learned thoughout our class to practice real world situations. The findings from our project can help both airports and airlines improve flight efficiency by identifying delays and their reasons.
+[Tableau Dashboard](https://public.tableau.com/shared/NST8W37XT?:display_count=n&:origin=viz_share_link)
 
 ## Data Source:
 
@@ -94,11 +84,11 @@ The information that was provided from our trusted sources had millions of data 
 
 ![dataframe dpcd](https://user-images.githubusercontent.com/99618784/180104535-ed617892-2a0a-49bd-9761-721e36803d32.PNG)
 
-We filled state abreviations with state names and orgainzed each state by region. Our analysis is specifically looking at outbound domestic flights so we simplified the destination to regions, to include Puerto Rico and the U.S Virgin Islands as non-continental regions. In order to do so we had to create a loop that would run through each dataframe and drop the state abreviation column and only show the full state name:
+We filled state abreviations with state names and orgainzed each state by region. Our analysis is specifically looking at outbound domestic flights so we simplified the destination to regions, to include Puerto Rico and the U.S Virgin Islands as non-continental regions. Hawaii and Alaska are included as part of the Western region. In order to do so, we had to create a loop that would run through each dataframe and drop the state abreviation column and only show the full state name:
 
 ![loop dpcd](https://user-images.githubusercontent.com/99618784/180104416-6be151bb-936e-498b-9fe3-859f15c2988c.PNG)
 
-Checking counts of each flight per year for each airport, origination flights, destination flights per state, null values. Creating our outputs, the delay output column was determined by a flight having a late depature of 15 minutes or longer. Since we are also factoring pre-covid and covid effects, we created a column to define them: 0 being the output for pre-covid and 1 being present times.
+We checked counts of each flight per year for each airport, origination flights, destination flights per state and null values. Creating our outputs, the delay output column was determined by a flight having a late depature of 15 minutes or longer. Since we are also factoring pre-covid and covid effects, we created a column to define them: 0 being the output for pre-covid and 1 being present times.
 
 ![delayoutput dpcd](https://user-images.githubusercontent.com/99618784/180105787-36b6cde1-aaa1-4d84-91e4-5efb0b16abc8.PNG)
 ![covid dpcd](https://user-images.githubusercontent.com/99618784/180107934-67754b35-208e-46e4-8f45-f2bfc1bab610.PNG)
@@ -139,28 +129,86 @@ Our main question -which Airport has been most efficient through the volatility 
 ![Database ERD first draft](https://user-images.githubusercontent.com/99618784/178156404-6ebea7fa-4b84-4da8-b44f-9de8016d30ee.png)
 
 ### Machine Learning Model
-After cleaning, we ran it through a logistic regression model. We chose this model because it helps us predict binary outcomes (delayed or not delayed) based on flight data from previous years. Before running the model, we had to adjust the data. First, we had to implement the countries to a higher level of categories (5 U.S Region). We also converted the categorical data (Airport, Airline, etc.) into dummy/indicator variables. On our first run of our model, we had 100% accuracy. After checking factor importance, we included the departure delayed variable in our x value. After dropping that variable, our model gave us a better representation of performance. Our accuracy score is 0.95, which made us more comfortable with our data pre-processing. In our fourth run, we dropped variables related to delays (drop CRS_DEP_TIME since we have flights in departure blocks) to ensure we had no variables that overlapped with delays. We believe our fourth run is the best way to run the model to avoid any overlapping. image
-![image](https://user-images.githubusercontent.com/100107588/179887371-1fd922da-5324-4269-b08c-02017150b007.png)
+#### Preprocessing 
+First, we had to implement the countries to a higher level of categories (5 U.S Region). 
+We also converted the categorical data (Airport, Airline, etc.) into dummy/indicator variables. 
+We are dropping the same columns for every model because they overlap with our target variable (DELAYED). The columns that we are dropping are: 
+* DATE 
+* DEP_TIME
+* DEP_DELAY_GROUP
+* DEST_STATE_NM
+* DEST
+* DEP_DELAY
+* LATE_AIRCRAFT_DELAY
+* CARRIER_DELAY
+* WEATHER_DELAY
+* SECURITY_DELAY
+* NAS_DELAY
+* DELAY_REASON
+* CRS_DEP_TIME
 
-The accuracy score is 0.501; the model is only 50% accurate. the sensitivity score is 1.00 The precision is .59. Of the 190 flights, only 113 had been actually delayed.
+#### Processing 
+* _We separated the feature (x) from the target (y)_ : Our target is “delayed,” while the rest of the columns are our features that might influence the chances of a flight being delayed 
+* _Training and Test_ : The y-test value in the logistic regression model has 222,493 on-time flights and 47,885 delayed flights.
+* _Scaling_ : Since our X values feature different values, we want to avoid large numbers that can disproportionately impact the model.
 
-The logistic regression is easier to implement, interpret, and train. We encountered some limitations that we discovered in our first run, and we had to look through the variables because the model was not predicting an accurate result. Our goal in the next few days is to run our data through a classification tree model and a neural network model. We uploaded a preliminary decision tree code that needs some adjustments. We will compare all three and their functionality with our data.
+#### Insights on Our Machine Learning Models 
+* After pre-processing and processing our data, we decided to run our data through 4 different machine learning models: Logistic Regression, Decision Tree, Random Forest, and Neural Network. Below is a file with insights on each model. 
+
+[ML_insights.md](https://github.com/camilabatres/dexter_project/blob/main/ML_insights.md)
+
+#### Comparing All The Models 
+![image](https://user-images.githubusercontent.com/100107588/182040092-9f93d890-f130-4f7f-b8c9-677ad2ddb87a.png)
+* Accuarcy - All the models have similar accuracy score between the 0.82-0.83 range. Therefore, we need to use other indicators to find out which one is the best model for our data. 
+* Precision - The model with the highest precision score is the Logistic Regression. The Neural Network is very close to the Logistic Regression score. The other two models are in the .40s.
+* Sensitivity - The Random Forest and Decision Tree models' sensitivity scores are in the .20s. Logistic Regression and Neural Network have way lower scores, close to 0. 
+
+##### Choosing Model 
+* We believe the Decision Tree is a better performing model with higher precision and sensitivity.
+* Even though Decision Tree has the lowest precision score out of all the models, it has the highest sensitivity score. In this situation, sensitivity is more important than the precision. 
+  * False positives can be ruled out by double checking the flight status. It is more important to detect delayed flights.  
+  * There is no penalty on misclassifying flights 
+* Advantages: 
+  * Decision Tree Model is very intuitive and easy to explain to stakeholders
+* Disadvantages: 
+  * A small change in the data can cause a large change in the structure 
+ 
+
+
 ## Dashboard
 
 As we create our dashboard in Tableau, our data begins to tell a story. When booking flight, one of the first choices you have to make is "When are you traveling". While looking at the images below you may notice that Wednesdays and Thursdays outbound domestic flights are more likely to be delayed out of BWI and DCA over any other day in the week. IAD holds the lowest amount of delayed flights overall for our DMV airports. If your wondering what causes these delays, your first thought may be weather. While certain weather conditions do cause delays, it may surprise you that its not nearly as impactful as a Carrier, Late Aircraft, or NAS delay. You will also have to decide which airline you'll chose to reach your destination. Our dashboard will go over those categories in more depth. In 2018, at a glance, you'll quickly learn not to book through Southwest Airlines if your flying out of BWI. These visuals of validating efficiency for our local airports are what we look forward to presenting to our stakeholders.
+
+Total Flights vs. Delays:
+
+<img width="1552" alt="Total Flights vs  Delays per Airport" src="https://user-images.githubusercontent.com/95712234/182051318-ebe4dd68-7716-4fd6-a134-5ec8d1f6801f.png">
+
+
 
 ![Delays_By_Weekdays_Per_Airport](https://user-images.githubusercontent.com/99618784/179883159-a87a511e-d25b-4747-abee-60de10cc1233.png)
 
 ![Carrier Flights Per Year Per Airport](https://user-images.githubusercontent.com/99618784/179883125-d7ca2e20-fde5-4f9b-9c94-2f12942a19d3.png)
 
-![Carrier Flights Per Year Per Airport](https://user-images.githubusercontent.com/99618784/179887115-53071c52-c864-4934-8196-edd47d3d6012.png)
+![Delay Categories Per Airline_Year_Airport (1)](https://user-images.githubusercontent.com/99618784/180891205-8b84abf7-3520-4e0d-b22f-4ae7256e8c94.png)
 
-![Screen Shot 2022-07-06 at 4 41 07 PM](https://user-images.githubusercontent.com/99618784/178156547-0f4734be-58cd-42f0-ab32-3ac893cf850e.png)
+![Airport Delay Reasons](https://user-images.githubusercontent.com/95712234/182051047-6cf98e06-3b36-405a-baea-d5d6c76409a2.png)
 
+<img width="1374" alt="Carrier Accountability for Delays by Airport" src="https://user-images.githubusercontent.com/95712234/182051501-8eb532c5-3170-4f16-91fb-6b5fbaf3fbca.png">
 
-### Communication
+The following interactive visual on Tableau shows the daily flight delays for the 3 DMV airports for each year. Here you can view the results for the year 2021:
 
-We've made the most of our time in class and using office hours to get together as well. We check in with questions, ideas, status updates through Slack. We have also met after class and on weekends to further work on our project. We plan on meeting outside of class at least twice a week. One of our group members set up a Zoom account so we are not limited to 40 minute sessions. Sunday mornings are our go to meet time. 
+BWI (2021):
+
+<img width="1388" alt="Delayed Flights by Day per Airport (BWI - 2021)" src="https://user-images.githubusercontent.com/95712234/182051955-b505056e-b680-4680-b661-297546588e2e.png">
+
+DCA (2021):
+
+<img width="1370" alt="Delayed Flights by Day per Airport (DCA - 2021)" src="https://user-images.githubusercontent.com/95712234/182052015-29f49adf-6a0c-49d7-9620-cbda9d1c00ae.png">
+
+IAD (2021):
+
+<img width="1372" alt="Delayed Flights by Day per Airport (IAD - 2021)" src="https://user-images.githubusercontent.com/95712234/182052077-9105f7ba-c8fc-4b95-ac00-19e390ff12f3.png">
+
 
 ### Technology
 
