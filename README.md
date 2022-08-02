@@ -187,9 +187,6 @@ Total Flights vs. Delays:
 
 ![Delays_By_Weekdays_Per_Airport](https://user-images.githubusercontent.com/99618784/179883159-a87a511e-d25b-4747-abee-60de10cc1233.png)
 
-![Carrier Flights Per Year Per Airport](https://user-images.githubusercontent.com/99618784/179883125-d7ca2e20-fde5-4f9b-9c94-2f12942a19d3.png)
-
-![Delay Categories Per Airline_Year_Airport (1)](https://user-images.githubusercontent.com/99618784/180891205-8b84abf7-3520-4e0d-b22f-4ae7256e8c94.png)
 
 ![Airport Delay Reasons](https://user-images.githubusercontent.com/95712234/182051047-6cf98e06-3b36-405a-baea-d5d6c76409a2.png)
 
