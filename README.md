@@ -113,16 +113,21 @@ We repeated the process for the BWI and DCA dataframes. After running a summary 
 ![iaddataframe dpcd](https://user-images.githubusercontent.com/99618784/180108482-0e8bbd93-af23-4227-88e5-9cb336c34441.PNG)
 
 
-## Questions We Hope To Answer: 
+## Questions We Hoped To Answer and What we did Answer: 
 Our main question -which Airport has been most efficient through the volatility of the past 3 years? That being said, we will be looking at what factors make up the answer.
 
-* What month/day of the week is the best?
-* Does month/day of the week matter?
-* Which airlines preformed the best?
+* What month/day of the week is the best? Does month/day of the week matter?
+  * From our analysis we learned that flying out on a Friday is the best day of the week for all 3 airports. Friday proved to be the day of the week with the least number of delays. Each airport had similar patterns where delays dropped Mondays and Tuesdays from Sunday, increased Wednesdays and Thursday, dropped to their lowest on Fridays and increased again on Saturdays. We also found that April, May and June hold the least number of delayed flights overall for each airport. These are the trends we found over the course of 4 years from our data. 
+* Which airlines preformed the best? Which airline has the most delays over the years?
+  * We broke this down by airport, each airline preformed differently. If flying out of IAD your chances for a delayed flight are highest with United Airlines. DCA shows American Airlines and Southwest Airlines for BWI as the highest number of delayed flights.
 * How does weather affect delays?
+  * Weather is a cause for delay but its not as impactful as we originally thought. Out of our top 5 reasoning for delays it was consistently in the last 2 if not the bottom affect. 
 * Does origin airport affect delay?
+  * BWI data has shown us that of the 3 airports, it has the most delays. Another data source tells us that BWI is one of the top 10 airports in the country for delays coming in at 30% of its flights being delayed.
+“https://www.travelawaits.com/2783626/us-airports-flight-delays-and-cancellations-summer-2022/”
+
 * Is there a correlation with destination region and flight delay?
-* Which airport/airline has the most delays over the years?
+
 
 ### Database:
 
