@@ -178,7 +178,37 @@ We are dropping the same columns for every model because they overlap with our t
 * Disadvantages: 
   * A small change in the data can cause a large change in the structure 
  
+ ##### Further Model
+ After we decided on the decision tree we went further and incorporated the weather data to see how the model changes. 
 
+ #### Preprocessing 
+First, we had use the station ID to add an Origin column to aid in joining the dataframe with the flight data. Columns from the weather data we chose to use for our model are :
+* DATE
+* ORIGIN
+* AWND
+* SNOW
+* WT03
+* PRCP
+* TMAX
+* TMIN
+
+The weather data only went back to 2019 so the flight data was filtered to exclude the 2018 data. The dataframes were then merges on  date and origin:
+
+![Capture3](https://user-images.githubusercontent.com/57120024/182505305-203a817f-2625-4b9a-9c67-266fb78d562e.PNG)
+
+#### Processing 
+The processing step was the same as before
+
+
+#### Insights on the Decision Tree with Weather Data
+
+When the weather data was added the results were similar accuracy, precision, and sensitivity. The issue we believe the model is now skewd by the weather data. When looking at feature importance, you can see of the top 5 features 3 come from the weather data. We do not belive this is a good model beacuse of this skew.
+
+![Capture](https://user-images.githubusercontent.com/57120024/182505594-5d29b53e-2922-453a-af3f-6913ade06ba6.PNG)
+
+![Capture2](https://user-images.githubusercontent.com/57120024/182505600-543461f9-0944-4a12-870f-ef035a7d8a30.PNG)
+
+Looking forward we belive the next steps would be is to find data for each airport on othe other delay categories, Carrier delay, Nas delay, Security delay, Lateaircraft delay. Incorporate them into the decision tree model and add approtiate weights to each. 
 
 ## Dashboard
 
