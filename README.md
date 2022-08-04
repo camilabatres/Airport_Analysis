@@ -117,17 +117,13 @@ We repeated the process for the BWI and DCA dataframes. After running a summary 
 Our main question -which Airport has been most efficient through the volatility of the past 3 years? That being said, we will be looking at what factors make up the answer.
 
 * What month/day of the week is the best? Does month/day of the week matter?
-  * From our analysis we learned that flying out on a Friday is the best day of the week for all 3 airports. Friday proved to be the day of the week with the least number of delays. Each airport had similar patterns where delays dropped Mondays and Tuesdays from Sunday, increased Wednesdays and Thursday, dropped to their lowest on Fridays and increased again on Saturdays. We also found that April, May and June hold the least number of delayed flights overall for each airport. These are the trends we found over the course of 4 years from our data. 
+  * From our analysis we learned that flying out on a Saturday is the best day of the week for all 3 airports. Saturday proved to be the day of the week with the least number of delays. Each airport had similar patterns where delays dropped Tuesdays and Wednesdays from Sunday, increased Fridays, and dropped to their lowest on Saturdays. We also found that April was the best month to fly with the least amount of delays and August is the worst with the most delays. These are the trends we found over the course of 4 years from our data. 
 * Which airlines preformed the best? Which airline has the most delays over the years?
-  * We broke this down by airport, each airline preformed differently. If flying out of IAD your chances for a delayed flight are highest with United Airlines. DCA shows American Airlines and Southwest Airlines for BWI as the highest number of delayed flights.
+  * We broke this down by airport, each airline preformed differently. If flying out of IAD, the best airline is Delta and the worst being Allegiant followed closely by Jetblue. DCA shows Hawaiian and Delta Airlines as the best and Jetblue as the worst. Delta Airlines is the best for BWI and Allgiant is the worst for delayed flights.
 * How does weather affect delays?
   * Weather is a cause for delay but its not as impactful as we originally thought. Out of our top 5 reasoning for delays it was consistently in the last 2 if not the bottom affect. 
 * Does origin airport affect delay?
-  * BWI data has shown us that of the 3 airports, it has the most delays. Another data source tells us that BWI is one of the top 10 airports in the country for delays coming in at 30% of its flights being delayed.
-“https://www.travelawaits.com/2783626/us-airports-flight-delays-and-cancellations-summer-2022/”
-
-* Is there a correlation with destination region and flight delay?
-
+  * BWI data has shown us that of the 3 airports, it has the most delays. 
 
 ### Database:
 
@@ -216,7 +212,8 @@ As we create our dashboard in Tableau, our data begins to tell a story. When boo
 
 Total Flights vs. Delays:
 
-<img width="1552" alt="Total Flights vs  Delays per Airport" src="https://user-images.githubusercontent.com/95712234/182051318-ebe4dd68-7716-4fd6-a134-5ec8d1f6801f.png">
+![Dashboard 9](https://user-images.githubusercontent.com/99618784/182963242-01a9ec6c-4767-4bee-8537-b3834bad1bb8.png)
+
 
 While looking at the images below you may notice that Thursdays and Fridays, for outbound domestic flights, are more likely to be delayed out of BWI and DCA over any other day in the week. IAD holds the lowest amount of delayed flights overall for our DMV airports. We would also like to point out that Saturdays are the best days to fly out with a less likely hood for delays. 
 
