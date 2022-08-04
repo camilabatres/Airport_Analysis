@@ -212,18 +212,21 @@ Looking forward we belive the next steps would be is to find data for each airpo
 
 ## Dashboard
 
-As we create our dashboard in Tableau, our data begins to tell a story. When booking flight, one of the first choices you have to make is "When are you traveling". While looking at the images below you may notice that Wednesdays and Thursdays outbound domestic flights are more likely to be delayed out of BWI and DCA over any other day in the week. IAD holds the lowest amount of delayed flights overall for our DMV airports. If your wondering what causes these delays, your first thought may be weather. While certain weather conditions do cause delays, it may surprise you that its not nearly as impactful as a Carrier, Late Aircraft, or NAS delay. You will also have to decide which airline you'll chose to reach your destination. Our dashboard will go over those categories in more depth. In 2018, at a glance, you'll quickly learn not to book through Southwest Airlines if your flying out of BWI. These visuals of validating efficiency for our local airports are what we look forward to presenting to our stakeholders.
+As we create our dashboard in Tableau, our data begins to tell a story. When booking a flight, one of the first choices you have to make is "When are you traveling". You will also have to decide which airline you'll chose to reach your destination. Wanting to make the most of your time away and spending it at an airport because of a delay is not in the plans. If your wondering what causes these delays, your first thought may be weather and its not even in the top 3. Our dashboard will go over those categories in more depth. These visuals of validating efficiency for our local airports are what we look forward to presenting to our stakeholders.
 
 Total Flights vs. Delays:
 
 <img width="1552" alt="Total Flights vs  Delays per Airport" src="https://user-images.githubusercontent.com/95712234/182051318-ebe4dd68-7716-4fd6-a134-5ec8d1f6801f.png">
 
+While looking at the images below you may notice that Thursdays and Fridays, for outbound domestic flights, are more likely to be delayed out of BWI and DCA over any other day in the week. IAD holds the lowest amount of delayed flights overall for our DMV airports. We would also like to point out that Saturdays are the best days to fly out with a less likely hood for delays. 
+
+![Delays By Weekday (1)](https://user-images.githubusercontent.com/99618784/182730980-4b5cc5b4-1999-4ed3-84cb-45f6b5e3924b.png)
+
+While weather conditions do cause delays, it may surprise you that its not nearly as impactful as a Carrier, Late Aircraft, or NAS delay. These factors are more on the logistical side of running an airport. 
+
+![Airport Delay Reasons](https://user-images.githubusercontent.com/99618784/182731372-8e0bb95b-7e68-4968-a36e-12c565751de3.png)
 
 
-![Delays_By_Weekdays_Per_Airport](https://user-images.githubusercontent.com/99618784/179883159-a87a511e-d25b-4747-abee-60de10cc1233.png)
-
-
-![Airport Delay Reasons](https://user-images.githubusercontent.com/95712234/182051047-6cf98e06-3b36-405a-baea-d5d6c76409a2.png)
 
 <img width="1374" alt="Carrier Accountability for Delays by Airport" src="https://user-images.githubusercontent.com/95712234/182051501-8eb532c5-3170-4f16-91fb-6b5fbaf3fbca.png">
 
