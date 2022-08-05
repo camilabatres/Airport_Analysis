@@ -241,6 +241,9 @@ IAD (2021):
 
 <img width="1372" alt="Delayed Flights by Day per Airport (IAD - 2021)" src="https://user-images.githubusercontent.com/95712234/182052077-9105f7ba-c8fc-4b95-ac00-19e390ff12f3.png">
 
+## Recommendations and Summary:
+
+To summarize our conclusions, if you’re going to plan a trip within the U.S. and if your local to northern Virginia-Avoid flying out on Thursdays or Fridays, departing from BWI in August. If you’re wanting to make the most of your time away. Fly out on a Saturday, out of DULLES AIRPORT, IN APRIL. The best day to fly out of the year is January 26th and the Worst is August 13th. With that being said Hopefully no one has a trip coming up next week. The highest delay reasoning for BWI was due to circumstances within the carrier like crew problems, fueling or baggage loading. DCA was due to Late Aircrafts which is what it sounds like, A previous flight with same aircraft arrived late, causing the present flight to depart late. IADs highest delay reasoning were due to the National Aviation System such as non-extreme weather conditions, heavy traffic volume, airport operations. As a reminder Dulles is an international airport and our data is only for domestic flights. We recommend Delta airlines and strongly suggest against Jetblue. They recently acquired Spirit Airlines so do with that information what you will. 
 
 ### Technology
 
